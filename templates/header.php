@@ -16,5 +16,15 @@
 </head>
 <body>
     <header>
-        Template cabeçalho
+        <a href="<?= $BASE_URL ?>" id="logo">
+            <img src="<?= $BASE_URL ?>/img/logo.svg" alt="Blog Codar">
+        </a>
+        <nav>
+            <ul id="navbar">
+                <li><a href="<?= $BASE_URL ?>" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Categorias</a></li>
+                <li><a href="#" class="nav-link">Sobre</a></li>
+                <li><a href="<?= $BASE_URL ?>/contato.php" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
     </header>
